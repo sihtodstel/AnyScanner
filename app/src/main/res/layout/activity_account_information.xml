@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:text="&lt;"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="normal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="271dp"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/screenshot_2023_10_09_at_9_00_04_am" />
+    </LinearLayout>
+
+
+    <!-- First Pair -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:text=" First Name:"
+            android:textColor="#594D4D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="No Name Provided"
+            android:textColor="#594D4D"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <!-- Second Pair -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text=" Last Name:"
+            android:textColor="#594D4D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="No Name Provided"
+            android:textColor="#594D4D"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <!-- Fourth Pair -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_weight="0.3"
+            android:text=" Email:"
+            android:textColor="#594D4D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="0.7"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="No Email Provided"
+            android:textColor="#594D4D"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Account Details" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password" />
+</LinearLayout>
+</LinearLayout>

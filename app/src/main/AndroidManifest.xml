@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.unh.anyscanner_rajat_rohith_f23">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.face"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.face"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/screenshot_2023_10_03_at_5_23_27_pm"
+        android:label="AnyScanner"
+        android:roundIcon="@drawable/screenshot_2023_10_03_at_5_23_27_pm"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnyScannerRajatRohithF23"
+        tools:targetApi="33">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCwg2SXD5L1r5Yifgw5HYs7kMUX5AO_DJs" />
+        <activity
+            android:name=".Preview"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QrHistory"
+            android:exported="true" />
+        <activity
+            android:name=".Change_Details_Account"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account_Information"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PasswordChange"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Forgot_Password_Verfifcation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnyScannerActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <receiver android:name=".ProfileFragment$NotificationReceiver" />
+    </application>
+
+</manifest>
