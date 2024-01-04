@@ -3,7 +3,7 @@
 ![ebf7f230e6a433be3e772624b61982be](https://github.com/UNH-Android-Fall23/AnyScanner-Rajat-Rohith-F23/assets/41318720/5d77baa5-a02a-4595-b44d-d1e50b8e1bc1)
 
 
-#Now Available on PlayStore
+# Now Available on PlayStore
 
 https://play.google.com/store/apps/details?id=com.unh.anyscanner_rajat_rohith_f23&pcampaignid=web_share
 
